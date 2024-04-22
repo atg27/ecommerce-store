@@ -1,5 +1,8 @@
 import { Nav, NavLink } from '@/components/Nav'
 
+export const dynamic = 'force-dynamic'
+//nextjs wont cache any admin pages - working from good internet connection, most recent data
+
 export default function AdminLayout({
   children,
 }: Readonly<{
